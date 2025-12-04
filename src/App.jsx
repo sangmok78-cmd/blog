@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import './App.css'
 import { GrApple } from "react-icons/gr";
 
+
 function App() {
     let [blog, setBlog]=useState(['명품가방추천','명품신발추천','명품시계추천'])
    let [modal, setModal]=useState(false)
